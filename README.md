@@ -60,6 +60,3 @@ flowchart TD
     class B,F netflixDark;
     class C,G netflixGray;
     class D,H netflixDark;
-# --- Branching & Merging ---
-git switch -c <branch-name>       # Create and switch to new branch
-git merge <branch-name>           # Merge target branch into current HEAD
