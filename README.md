@@ -43,20 +43,41 @@ Welcome to **GTI (Git & GitHub Learn Path)** — an elite, hands-on engineering 
 
 ```mermaid
 flowchart TD
-    A([Git Fundamentals]) --> B([Local Repositories])
-    B --> C([Add & Commit Changes])
-    C --> D([Connect to GitHub])
-    D --> E([Push & Pull])
-    E --> F([Branching & Merging])
-    F --> G([Collaboration & PRs])
-    G --> H([Open-Source Workflow])
+    A([01. Git Fundamentals]) --> B([02. Local Repositories])
+    B --> C([03. Add & Commit])
+    C --> D([04. Connect Remote])
+    D --> E([05. Push & Pull])
+    E --> F([06. Branching])
+    F --> G([07. Collaboration])
+    G --> H([08. Open Source])
 
-    classDef blue fill:#4285F4,stroke:#4285F4,color:#fff;
-    classDef red fill:#EA4335,stroke:#EA4335,color:#fff;
-    classDef yellow fill:#FBBC05,stroke:#FBBC05,color:#202124;
-    classDef green fill:#34A853,stroke:#34A853,color:#fff;
+    classDef netflixRed fill:#E50914,stroke:#B81D24,color:#fff,stroke-width:2px;
+    classDef netflixDark fill:#141414,stroke:#E50914,color:#fff,stroke-width:2px;
+    classDef netflixGray fill:#222222,stroke:#E50914,color:#e5e5e5,stroke-width:1px;
 
-    class A,E blue;
-    class B,F red;
-    class C,G yellow;
-    class D,H green;
+    class A,E netflixRed;
+    class B,F netflixDark;
+    class C,G netflixGray;
+    class D,H netflixDark;
+
+# --- Lifecycle Management ---
+git init                          # Initialize a new local repository
+git clone <url>                   # Clone a remote repository locally
+
+# --- Inspection & Status ---
+git status                        # Inspect working tree changes
+git diff                          # View unstaged file diff lines
+git log --oneline --graph         # Visualize commit tree history compactly
+
+# --- Staging & Committing ---
+git add <file-name>               # Stage target file modifications
+git commit -m "feat: message"     # Record snapshot with a structured message
+
+# --- Remote Synchronization ---
+git remote add origin <url>       # Link local repository to remote hub
+git push -u origin main           # Push commits and track upstream branch
+git pull origin main              # Fetch and integrate remote changes
+
+# --- Branching & Merging ---
+git switch -c <branch-name>       # Create and switch to new branch
+git merge <branch-name>           # Merge target branch into current HEAD
