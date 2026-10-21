@@ -39,6 +39,7 @@ Welcome to **GTI (Git & GitHub Learn Path)** — an elite, hands-on engineering 
 | **VS Code** | Advanced source code editor & integrated Git extension hub |
 
 ---
+
 ## 🗺️ 03 — The Mastery Roadmap
 
 ```mermaid
@@ -59,27 +60,6 @@ flowchart TD
     class B,F netflixDark;
     class C,G netflixGray;
     class D,H netflixDark;
-git switch -c <branch-name>       # Create and switch to new branch
-git merge <branch-name>           # Merge target branch into current HEAD
-
-# --- Lifecycle Management ---
-git init                          # Initialize a new local repository
-git clone <url>                   # Clone a remote repository locally
-
-# --- Inspection & Status ---
-git status                        # Inspect working tree changes
-git diff                          # View unstaged file diff lines
-git log --oneline --graph         # Visualize commit tree history compactly
-
-# --- Staging & Committing ---
-git add <file-name>               # Stage target file modifications
-git commit -m "feat: message"     # Record snapshot with a structured message
-
-# --- Remote Synchronization ---
-git remote add origin <url>       # Link local repository to remote hub
-git push -u origin main           # Push commits and track upstream branch
-git pull origin main              # Fetch and integrate remote changes
-
 # --- Branching & Merging ---
 git switch -c <branch-name>       # Create and switch to new branch
 git merge <branch-name>           # Merge target branch into current HEAD
