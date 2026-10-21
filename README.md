@@ -39,7 +39,6 @@ Welcome to **GTI (Git & GitHub Learn Path)** — an elite, hands-on engineering 
 | **VS Code** | Advanced source code editor & integrated Git extension hub |
 
 ---
-
 ## 🗺️ 03 — The Mastery Roadmap
 
 ```mermaid
@@ -61,38 +60,3 @@ flowchart TD
     class B,F red;
     class C,G yellow;
     class D,H green;
-
-
-
-# --- Lifecycle Management ---
-git init                          # Initialize a new local repository
-git clone <url>                   # Clone a remote repository locally
-
-# --- Inspection & Status ---
-git status                        # Inspect working tree changes
-git diff                          # View unstaged file diff lines
-git log --oneline --graph         # Visualize commit tree history compactly
-
-# --- Staging & Committing ---
-git add <file-name>               # Stage target file modifications
-git commit -m "feat: message"     # Record snapshot with a structured message
-
-# --- Remote Synchronization ---
-git remote add origin <url>       # Link local repository to remote hub
-git push -u origin main           # Push commits and track upstream branch
-git pull origin main              # Fetch and integrate remote changes
-
-# --- Branching & Merging ---
-git switch -c <branch-name>       # Create and switch to new branch
-git merge <branch-name>           # Merge target branch into current HEAD
-
-
-flowchart LR
-    A[Learn Concept] --> B[Understand Command] --> C[Execute in Terminal] --> D[Verify Output State] --> E[Build Habit]
-    E -.-> A
-
-    style A fill:#4285F4,stroke:#4285F4,color:#fff
-    style B fill:#EA4335,stroke:#EA4335,color:#fff
-    style C fill:#FBBC05,stroke:#FBBC05,color:#202124
-    style D fill:#34A853,stroke:#34A853,color:#fff
-    style E fill:#4285F4,stroke:#4285F4,color:#fff
