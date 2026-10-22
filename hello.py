@@ -1,2 +1,2 @@
-print("Learning Git-Github from scratch to. . . .")
+print("Learning Git & Github from scratch to. . . .")
 
