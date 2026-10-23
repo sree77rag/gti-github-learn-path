@@ -1,17 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8&height=120&section=header&text=GTI%20|%20Git%20&%20GitHub%20Learn%20Path&fontSize=35&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%" alt="Dynamic animated header banner"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=34A853&center=true&vCenter=true&repeat=true&width=750&lines=Mastering+Version+Control+From+Scratch;Architecting+Clean+Git+Workflows;Building+Professional+Developer+Habits;Code.+Commit.+Push.+Repeat." alt="Typing animation introduction"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20LEARNING-4285F4?style=for-the-badge&logo=git&logoColor=white" alt="Learning status"/>
-  <img src="https://img.shields.io/badge/ENVIRONMENT-UBUNTU%20LNX-EA4335?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu Linux"/>
-  <img src="https://img.shields.io/badge/CORE-VERSION%20CONTROL-FBBC05?style=for-the-badge&logo=github&logoColor=black" alt="Version control focus"/>
-  <img src="https://img.shields.io/badge/BUILD-SUCCESS-34A853?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build success"/>
-</p>
 
 ---
 
