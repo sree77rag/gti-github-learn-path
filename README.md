@@ -17,7 +17,7 @@
 
 ## 🎯 01 — The Mission & Vision
 
-Welcome to **GTI (Git & GitHub Learn Path)** — an elite, hands-on engineering repository designed to master the inner workings of Git, remote collaboration protocols, and professional repository architectures.
+Welcome to **GIT & GITHUB (Git & GitHub Learn Path)** — an elite, hands-on engineering repository designed to master the inner workings of Git, remote collaboration protocols, and professional repository architectures.
 
 > 💡 **Core Philosophy:** True version control mastery isn't about memorizing terminal commands; it's about deeply understanding the underlying **state machine** (Working Directory ➔ Staging Area ➔ Local Repository ➔ Remote Origin).
 
